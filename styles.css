@@ -1,1 +1,25 @@
-div{color:black;}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.nav{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+.hero{height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: url('hero-bg.jpg') no-repeat center center/cover;}
