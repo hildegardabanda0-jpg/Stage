@@ -4,38 +4,27 @@ body{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
-.nav{display: flex;
+.navbar{display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: white;
     padding: 10px 20px;
 }
-.nav a{
-    color: white;
-    text-decoration: none;
-    padding: 8px 10px;
-}
-.hero{height: 100vh;
+.nav-link {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 15px;
-    background: url('hero-bg.jpg') no-repeat center center/cover;}
-    .a{display: inline-block;
-    margin: 10px;}
-    .nav-link{
-        display: flex;
-        
-        justify-content:space-evenly;
-        padding: 10px;
-        width: 100%;
-        margin-right: 10px;
-    }
-    img {
-        width: 50%;
-        height: 30;
-        text-decoration: none;
-    }
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    gap: 20px;
 
+}
+img {
+    height: auto;
+    width: 7%;
+    border-radius: 3000%;
+}
+.logo {
+    width: 3%;
+    height: auto;
+}
+    
