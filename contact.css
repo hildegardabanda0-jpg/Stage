@@ -9,23 +9,24 @@
 }
 
 /* Titre */
-.contact-container h1 {
-    text-align: center;
-    color: #333;
+.contact-section  {
+    text-align:left;
+    background-color:rgb(0, 0, 0);
+    color: white;
 }
-.contact-container p{
+.contact-section p{
     text-align: left;
     color: white;
 }
 
-/* Labels */
-label {
+/* contact-info */
+ label {
     display: block;
     margin-top: 15px;
     font-weight: bold;
 }
 
-/* Champs de saisie */
+/* Contact-info */
 input, textarea {
     width: 100%;
     padding: 10px;
