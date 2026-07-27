@@ -19,13 +19,9 @@ body{
 
 }
 img {
-    height: auto;
-    width: 7%;
-    border-radius: 3000%;
-}
-.logo {
-    width: 3%;
-    height: auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
 button {
     color: white;
@@ -35,6 +31,6 @@ button {
     height: 150%;
 }
 .hero {
-    
+
 }
     
