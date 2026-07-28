@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos - MonSite</title>
+    <!-- Inclure ton fichier CSS ici -->
+</head>
+<body>
+
+           <!-- Entête avec Navigation -->
+    <header>
+        <div class="logo">MonSite</div>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="apropos.html">À propos</a>
+        </nav>
+    </header>
+
+    <!-- Contenu Principal -->
+    <main>
+        <section class="about">
+            <h1>À propos de nous</h1>
+            <p>Nous sommes une équipe passionnée par l'innovation technologique et le développement de logiciels.</p>
+            
+            <h2>Notre Mission</h2>
+            <p>Accompagner les entreprises et particuliers dans leur transformation digitale avec des outils modernes, rapides et adaptés à leurs besoins.</p>
+
+            <h2>Pourquoi nous choisir ?</h2>
+            <ul>
+                <li>Expertise technique et rigueur</li>
+                <li>Accompagnement personnalisé</li>
+                <li>Design moderne et intuitif</li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>
