@@ -4,11 +4,15 @@ body{
     font-family: Arial, sans-serif;
 }
 .nav-bar {
-    background-color: rgb(168, 56, 56);
+    background-color: white;
     color:black;
     padding: 10px;
     text-align: center;
-    height: 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 nav ul {
     list-style-type: none;
@@ -26,17 +30,17 @@ nav a {
     font-size: 1rem;
     transition: color 0.3s ease;
 }
-img {
+.img {
     height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    display: block;
-    margin-top: 50px;
+    width: 100px;
+    
+   
 }
 .hero {
-    background-color: rgb(33, 185, 114);
+    background-color: black;
     color: white;
     padding: 50px;
+    text-align: center;
 
     
 }
@@ -63,10 +67,8 @@ img {
     font-size: 20px;
     cursor: pointer;
 }
-<<<<<<< HEAD
 /* ===== Section Services ===== */
-=======
-<<<<<<< HEAD
+
 button{
     background-color: rgb(241, 73, 12);
     color: white;
@@ -75,10 +77,15 @@ button{
     padding: 12px 30px;
     font-size: 15px;
     cursor: pointer;
-     margin-bottom: 20px;
    
 }
 .nav-links {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 400px;
     
 }
 .card-container h2 {
@@ -88,8 +95,6 @@ button{
 }
 .services {
     background-color: orange;
-=======
->>>>>>> d10ca785901a5ed8082ab10f6a45e036873b6297
 
 .services{
     padding: 80px 10%;
@@ -97,7 +102,6 @@ button{
     text-align: center;
 }
 
-<<<<<<< HEAD
 .services h1{
     font-size: 2.8rem;
     color: #1f2937;
@@ -185,7 +189,21 @@ button{
         font-size: 2.2rem;
     }
 }
-=======
->>>>>>> c5904c986cc8652934a6076fa45534e14c0925a8
+
 }
 >>>>>>> d10ca785901a5ed8082ab10f6a45e036873b6297
+=======
+}
+
+/*services*/
+.services {
+    padding: 50px 20px;
+    background-color: rgb(241, 241, 241);
+    text-align: center;
+}
+.menu-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+>>>>>>> 50f011551c08ac4c27f165772131fc4143afd0f1
