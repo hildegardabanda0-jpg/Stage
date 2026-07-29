@@ -57,12 +57,98 @@ img {
     font-size: 20px;
     cursor: pointer;
 }
+/* ===== Section Services ===== */
 
-
-/*services*/
-.services {
-    padding: 50px 20px;
-    background-color: rgb(241, 241, 241);
+.services{
+    padding: 80px 10%;
+    background: #f5f7fb;
     text-align: center;
+}
 
+.services h1{
+    font-size: 2.8rem;
+    color: #1f2937;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.services p{
+    color: #6b7280;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
+
+/* ===== Conteneur des cartes ===== */
+
+.service-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+/* ===== Cartes ===== */
+
+.card{
+    background: #fff;
+    padding: 40px 25px;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(37,99,235,.25);
+}
+
+/* ===== Icônes ===== */
+
+.card i{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 32px;
+    color: white;
+    background: linear-gradient(135deg,#2563eb,#4f46e5);
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+/* ===== Titres ===== */
+
+.card h3{
+    font-size: 1.5rem;
+    color: #1f2937;
+    margin-bottom: 15px;
+}
+
+/* ===== Texte ===== */
+
+.card p{
+    color: #6b7280;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 992px){
+    .service-box{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 768px){
+    .service-box{
+        grid-template-columns: 1fr;
+    }
+
+    .services{
+        padding: 60px 20px;
+    }
+
+    .services h1{
+        font-size: 2.2rem;
+    }
 }
