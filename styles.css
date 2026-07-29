@@ -3,11 +3,12 @@ body{
     color: black;
     font-family: Arial, sans-serif;
 }
-nav {
-    background-color: white;
+.nav-bar {
+    background-color: rgb(168, 56, 56);
     color:black;
     padding: 10px;
     text-align: center;
+    height: 150px;
 }
 nav ul {
     list-style-type: none;
@@ -19,7 +20,7 @@ nav ul {
     padding: 0;
 }
 nav a {
-    color: black;
+    color: rgb(12, 12, 12);
     text-decoration: none;
     font-family: sans-serif;
     font-size: 1rem;
@@ -30,23 +31,28 @@ img {
     width: 50px;
     border-radius: 50%;
     display: block;
+    margin-top: 50px;
 }
 .hero {
-    text-align: center;
-    background-color: black;
+    background-color: rgb(33, 185, 114);
     color: white;
     padding: 50px;
+
+    
 }
 .hero h1 {
     font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 20px;
     letter-spacing: -1px;
+    margin-left: 10px ;
+    
 }
 .hero p {
     font-size: 16px;
     line-height: 1.6;
     margin-bottom: 30px;
+    margin-left: 10px;
 }
 .hero button {
     background-color: rgb(241, 73, 12);
@@ -57,6 +63,29 @@ img {
     font-size: 20px;
     cursor: pointer;
 }
+<<<<<<< HEAD
+button{
+    background-color: rgb(241, 73, 12);
+    color: white;
+    border: none;
+    border-radius: 200px;
+    padding: 12px 30px;
+    font-size: 15px;
+    cursor: pointer;
+     margin-bottom: 20px;
+   
+}
+.nav-links {
+    
+}
+.card-container h2 {
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+}
+.services {
+    background-color: orange;
+=======
 
 
 /*services*/
@@ -65,4 +94,5 @@ img {
     background-color: rgb(241, 241, 241);
     text-align: center;
 
+>>>>>>> c5904c986cc8652934a6076fa45534e14c0925a8
 }
